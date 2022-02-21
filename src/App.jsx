@@ -1,17 +1,20 @@
-import Header from './components/Header';
-import SideFooter from './components/SideFooter';
+import {Routes, Route} from 'react-router-dom'
 import './App.css';
+import Home from './components/Home';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
-      {/* Nav bar */}
-      <Header />
+      <Routes>
+        {/* HOME Page Component */}
+        <Route path='/' element={<Home />} />
 
-      <h1>Rendering App</h1>
+        {/* Resume Page */}
+        <Route path='/resume.pdf' element={<Resume />} />
 
-      {/* Footer along the bottom Side */}
-      <SideFooter />
+      </Routes>
+
     </div>
   );
 }

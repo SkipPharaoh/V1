@@ -5,9 +5,12 @@ function Header(){
         <div className="Header">
             <nav className="Header">
                 <p>Logo</p>
-                <p>Portfolio</p>
                 <p>About</p>
-                <p>Resume</p>
+                <p>Skills</p>
+                <p>Projects</p>
+                <a className="resume-button" href="/resume.pdf" target='_blank' rel="noopener noreferrer">
+                    <button>Resume</button>
+                </a>
             </nav>
         </div>
     )

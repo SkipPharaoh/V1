@@ -1,5 +1,6 @@
 // IMPORTS //
 import About from "./About"
+import Footer from "./Footer"
 import Header from "./Header"
 import Projects from "./Projects"
 import SideFooter from "./SideFooter"
@@ -22,6 +23,9 @@ function Home(){
 
             {/* Footer along the bottom Side */}
             <SideFooter />
+
+            {/* Bottom Footer */}
+            <Footer />
         </div>
     )
 }

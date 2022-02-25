@@ -1,0 +1,14 @@
+.Contacts{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 100px;
+}
+.img{
+    height: 30px;
+    width: 30px;
+}
+.img:hover, .img:focus {
+    transform: translateX(10px);
+}

@@ -1,4 +1,5 @@
-
+// IMPORT //
+import '../styles/Skills.css'
 
 function Skills(){
     return(

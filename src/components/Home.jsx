@@ -7,6 +7,8 @@ import SideFooter from "./SideFooter"
 import Skills from "./Skills"
 
 function Home(){
+    // if  !info is not loaded yet, then return loading
+    // else info
     return(
         <div className="Home">
             {/* Nav Bar Component */}

@@ -1,14 +1,61 @@
 .Contacts{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
-    margin-bottom: 100px;
+    align-items: center;
+    height: 350px;
+    width: 50px;
 }
 .img{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 .img:hover, .img:focus {
-    transform: translateX(10px);
+    transform: translateX(20px);
+}
+.Contacts::after {
+    content: " ";
+    width: 3px;
+    height: 10rem;
+    background-color: black;
+}
+
+/* Medium Screens or Less */
+@media screen and (max-width: 850px) {
+    .Contacts{
+        background: rgba(0, 0, 0, 0.3);
+        max-width: max-content;
+        display: block;
+        padding: 0.7rem 1.7rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+        height: 2px;
+        width: 245.56px;
+        margin-top: 100px;
+    }
+    .Contacts::after {
+        content: " ";
+        width: 0px;
+        height: 0rem;
+        background-color: red;
+    }
+    .img{
+        background: transparent;
+        /* padding: 0.8rem; */
+        border-radius: 10%;
+        display: flex;
+        font-size: 1.1rem;
+    }
+    .img:hover, .img:focus {
+        transform: translateY(-20px);
+    }
 }

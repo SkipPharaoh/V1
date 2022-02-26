@@ -5,23 +5,23 @@ function SideFooter(){
     return(
         <div className="Contacts">
             {/* GITHUB */}
-            <a className='img' href="https://github.com/SkipPharaoh">
-                <img src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/30/000000/external-github-community-for-software-building-and-testing-online-logo-green-tal-revivo.png"/>
+            <a href="https://github.com/SkipPharaoh" target='_blank' rel="noreferrer">
+                <img className='img' alt='' src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/github/github-original.svg"/>
             </a>
 
             {/* LINKEDIN */}
-            <a className='img' href="https://www.linkedin.com/in/skippharaoh/">
-                <img src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/30/000000/external-linkedin-in-logo-used-for-professional-networking-logo-green-tal-revivo.png"/>
+            <a href="https://www.linkedin.com/in/skippharaoh/" target='_blank' rel="noreferrer">
+                <img className='img' alt='' src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/linkedin/linkedin-plain.svg"/>
             </a>
 
             {/* TWITTER */}
-            <a className='img' href="https://twitter.com/skip_pharaoh">
-                <img src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/30/000000/external-twitter-bird-logotype-a-social-networking-service-on-which-users-post-messages-logo-green-tal-revivo.png"/>
+            <a href="https://twitter.com/skip_pharaoh" target='_blank' rel="noreferrer">
+                <img className='img' alt='' src="https://www.nicepng.com/png/full/8-88155_free-twitter-icon-png-vector-twitter-black-logo.png"/>
             </a>
 
             {/* EMAIL */}
-            <a className='img' href="mailto:caniggiathompson@gmail.com">
-                <img src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/30/000000/external-email-address-service-email-green-tal-revivo.png"/>
+            <a href="mailto:caniggiathompson@gmail.com">
+                <img className='img' alt='' src="https://cdn-icons-png.flaticon.com/512/60/60543.png"/>
             </a>
         </div>
     )

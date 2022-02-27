@@ -1,13 +1,34 @@
+/* About Container */
 .About {
     text-align: center;
-    max-width: 850px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
 }
+
+/* Intro Container */
 .Intro {
     margin-top: 200px;
 }
-.Me {
+
+/* Me Container */
+.me-flex {
     margin-top: 200px;
+}
+.Me {
+    display: flex;
+}
+#me-header {
+    margin-bottom: 1em;
+}
+
+
+/* Medium Screens or Smaller */
+@media screen and (max-width: 800px) {
+    .About {
+        max-width: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

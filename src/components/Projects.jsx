@@ -1,8 +1,11 @@
+// IMPORTS //
+import {projects} from '../Data'
 
 
 function Projects(){
     return(
         <div className="Projects" id="projects">
+            <h1 className='text-3xl font-bold underline'>Projects</h1>
             <div className="Portfolio Project">
                 <h5>This Website</h5>
             </div>

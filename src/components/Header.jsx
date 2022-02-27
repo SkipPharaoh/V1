@@ -1,34 +1,64 @@
 import '../styles/Header.css'
+import {useState} from 'react'
 
 function Header(){
+    // States //
+    const [isOpen, setIsOpen] = useState(false)
+
+    // Toggle Function For Collapsed Header //
+    const toggleMenu = () => {
+        setIsOpen(!isOpen)
+    }
+
+    // Variables //
+    const open = isOpen ? 'block' : 'hidden'
+
     return(
         <div className="Header">
+            
             {/* Nav Bar */}
-            <nav className="navbar navbar-expand-sm navbar-light bg-light">
-                <div className="container-fluid">
+            <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
 
-                    {/* LOGO */}
-                    <a className="navbar-brand" href="/">Logo</a>
+                {/* LOGO */}
+                <div className="flex items-center flex-shrink-0 text-white mr-6">
+                    <a className="font-semibold text-xl tracking-tight" href="/">Tailwind CSS</a>
+                    
+                </div>
 
-                    {/* Collapse Icon */}
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                {/* Collapse Icon */}
+                <div className="block lg:hidden">
+                    <button onClick={toggleMenu} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                        <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                        </svg>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
+                </div>
 
-                            {/* About */}
-                            <a className="nav-link active" aria-current="page" href="#about">About</a>
+                <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${open}`}>
 
-                            {/* Skilss */}
-                            <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
+                    {/* Page Section Button/Links */}  
+                    <div className="text-sm lg:flex-grow">
 
-                            {/* Projects */}
-                            <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
-                            
-                            {/* Resume Button/Link */}
-                            <a className="nav-link resume-button" href='/resume.pdf' target='_blank' rel="noopener noreferrer"><button>Resume</button></a>
-                        </div>
+                        {/* About */}
+                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                            About
+                        </a>
+
+                        {/* Skills */}
+                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                            Skills
+                        </a>
+
+                        {/* Projects */}
+                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                            Projects
+                        </a>
+                    </div>
+
+                    {/* Resume Button/Link */}
+                    <div>
+                        <a href="/resume.pdf" target='_blank' rel="noopener noreferrer" className="inline-block px-4 py-2 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 shadow-2xl">Resume</a>
                     </div>
                 </div>
             </nav>
@@ -37,3 +67,4 @@ function Header(){
 }
 
 export default Header
+

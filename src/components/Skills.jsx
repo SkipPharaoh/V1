@@ -66,6 +66,12 @@ function Skills(){
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-original.svg" alt="" className="skill animate-bounce" />
                             </div>
 
+                            {/* TAILWINDCSS */}
+                            <div className="circle">
+                                {/* <p>Tailwind CSS</p> */}
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/tailwindcss/tailwindcss-plain.svg" alt="" className="skill animate-bounce" />
+                            </div>
+
                             {/* REACT */}
                             <div className="circle">
                                 {/* <p>React</p> */}

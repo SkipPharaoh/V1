@@ -1,4 +1,5 @@
 import '../styles/Header.css'
+import Logo from '../assets/logo.png'
 import {useState} from 'react'
 
 function Header(){
@@ -17,11 +18,13 @@ function Header(){
         <div className="Header">
             
             {/* Nav Bar */}
-            <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+            <nav className="flex items-center justify-between flex-wrap bg-slate-900 p-6">
 
                 {/* LOGO */}
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
-                    <a className="font-semibold text-xl tracking-tight" href="/">Tailwind CSS</a>
+                    <a className="font-semibold text-xl tracking-tight" href="/">
+                        <img src={Logo} alt="Logo" className='w-11 h-11 rounded-full border border-white'/>
+                    </a>
                     
                 </div>
 
@@ -38,7 +41,7 @@ function Header(){
                 <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${open}`}>
 
                     {/* Page Section Button/Links */}  
-                    <div className="text-sm lg:flex-grow">
+                    <div className="text-xl lg:flex-grow">
 
                         {/* About */}
                         <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">

@@ -10,6 +10,17 @@ function Skills(){
                 Skill Set
             </h3>
 
+            {/* Current Tech Stack */}
+            <div className="Exploring">
+                <h1>My Go To Tech Stack</h1>
+                <p>MERN Stack</p>
+            </div>
+
+            {/* Current Tech Stack */}
+            <div className="Exploring">
+                <h1>Languages & Tools I Have Utilized</h1>
+            </div>
+
             {/* Skills Container */}
             <div className="SkillSetContainer">
 
@@ -167,6 +178,7 @@ function Skills(){
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

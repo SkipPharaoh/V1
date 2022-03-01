@@ -1,8 +1,9 @@
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route, Link} from 'react-router-dom'
 import './App.css';
 import Disc from './components/Disc';
 import Home from './components/Home';
 import Resume from './components/Resume';
+import Links from './components/Links';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
 
         {/* Disc Assestment */}
         <Route path='/disc.pdf' element={<Disc />} />
+
+        {/* Links */}
+        <Route path='/links' element={<Links />} />
 
       </Routes>
 

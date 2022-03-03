@@ -2,3 +2,6 @@
     width: 100%;
     justify-content: flex-end;
 }
+.icon:hover, .icon:focus {
+    transform: translateY(-5px);
+}

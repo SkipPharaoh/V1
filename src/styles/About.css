@@ -22,13 +22,22 @@
 #me-header {
     margin-bottom: 1em;
 }
+#headshot {
+    width: 324px;
+    height: 324px
+}
 
 
 /* Medium Screens or Smaller */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .About {
         max-width: fit-content;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .Me {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }

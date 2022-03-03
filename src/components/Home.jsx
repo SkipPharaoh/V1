@@ -7,6 +7,11 @@ import SideFooter from "./SideFooter"
 import Skills from "./Skills"
 import {useState, useEffect} from 'react'
 
+
+
+// const colorCombo1 = ''
+
+
 function Home(){
     // if !info is not loaded yet, then return loading
     // else info
@@ -20,7 +25,8 @@ function Home(){
         window.addEventListener("scroll", () => {
         if (window.pageYOffset > 300) {
             setTopButton(true)
-        } else {
+        }
+        else {
             setTopButton(false)
         }
         })
@@ -37,8 +43,8 @@ function Home(){
 
 
     return(
-        <div className="Home bg-gradient-to-b from-teal-50 via-cyan-300 to-blue-50 h-full">
-            {/* Nav Bar Component */}
+        <div className="Home bg-gradient-to-b from-white via-blue-200 to-neutral-900 h-full">
+        {/* Nav Bar Component */}
             <Header />
 
             {/* About Component */}
@@ -56,10 +62,10 @@ function Home(){
             {/* Bottom Footer */}
             <Footer />
 
-            // Button To Click To Scroll To Top
+            {/*  Button To Click To Scroll To Top */}
             {topButton && (
                 <button onClick={scrollToTop} 
-                className="fixed bottom-5 right-5 bg-slate-900 text-white rounded-full hover:bg-yellow-500 hover:text-black cursor-pointer"
+                className="fixed bottom-5 right-5 hover:bg-raspberry text-neutral-900 rounded-full bg-indigo hover:text-white cursor-pointer"
                 >
 
                     {/* Arrow Icon */}

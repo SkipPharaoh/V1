@@ -24,12 +24,12 @@ function Header(){
         <div className="Header">
             
             {/* Nav Bar */}
-            <nav className="flex items-center justify-between flex-wrap bg-slate-900 p-6">
+            <nav className="flex items-center justify-between flex-wrap bg-indigo p-6">
 
                 {/* LOGO */}
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     <a className="font-semibold text-xl tracking-tight" href="/">
-                        <img src={Logo} alt="Logo" className='w-11 h-11 rounded-full border border-white shadow-2xl shadow-amber-50'/>
+                        <img src={Logo} alt="Logo" className='w-11 h-11 rounded-full border border-white hover:border-blue-100 shadow-2xl shadow-amber-50'/>
                     </a>
                     
                 </div>
@@ -42,7 +42,7 @@ function Header(){
                         {darkMode ? 
 
                             // Dark Mode Icon //
-                            <svg className="w-8 h-8 md:w-10 md:h-10 fill-black stroke-amber-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-blue-100 stroke-white hover:stroke-blue-100 fill-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             >
                                 <path
                                 strokeLinecap="round"
@@ -53,8 +53,8 @@ function Header(){
                             </svg>
                             :
 
-                            // Light Mode Toggle
-                            <svg className="w-8 h-8 md:w-10 md:h-10 fill-black stroke-amber-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            // Light Mode Icon //
+                            <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-white hover:stroke-blue-100 stroke-white fill-blue-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             >
                                 <path
                                     strokeLinecap="round"
@@ -69,7 +69,7 @@ function Header(){
 
                 {/* Collapse Icon */}
                 <div className="block lg:hidden">
-                    <button onClick={toggleMenu} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <button onClick={toggleMenu} className="flex items-center px-3 py-2 border rounded bg-white border-blue-100 fill-blue-100 hover:border-white hover:fill-white hover:bg-someBlue">
                         <svg 
                             className="fill-current h-6 w-6" 
                             viewBox="0 0 20 20" 
@@ -87,24 +87,24 @@ function Header(){
                     <div className="text-xl lg:flex-grow">
 
                         {/* About */}
-                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white mr-4">
                             About
                         </a>
 
                         {/* Skills */}
-                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white mr-4">
                             Skills
                         </a>
 
                         {/* Projects */}
-                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white">
                             Projects
                         </a>
                     </div>
 
                     {/* Resume Button/Link */}
                     <div>
-                        <a href="/resume.pdf" target='_blank' rel="noopener noreferrer" className="inline-block px-4 py-2 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 shadow-2xl">Resume</a>
+                        <a href="/resume.pdf" target='_blank' rel="noopener noreferrer" className="inline-block px-4 py-2 leading-none border rounded-full text-blue-100 border-blue-100 bg-white hover:text-white hover:bg-someBlue hover:border-white mt-4 lg:mt-0 shadow-2xl">Resume</a>
                     </div>
                 </div>
             </nav>

@@ -1,4 +1,4 @@
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import './App.css';
 import Disc from './components/Disc';
 import Home from './components/Home';

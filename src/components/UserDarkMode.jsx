@@ -1,25 +1,24 @@
-// // IMPORTS //
-// import {useState, useEffect} from 'react'
-// import useLocalStorage from 'use-local-storage'
+import React, { useEffect, useState } from "react";
 
+function UserDarkMode() {
+    // STATES //
+    const [theme, setTheme] = useState(localStorage.theme);
 
-// function UserDarkMode(){
+    // Conditional For Color Theme //
+    const colorTheme = theme === 'dark' ? 'light' : 'dark'
 
+    useEffect(() => {
+        const root = window.document.documentElement;
 
-//     const [isEnabled, setIsEnabled] = useLocalStorage('dark-mode', undefined)
+        // Adds/Removes Class of Light/Dark //
+        root.classList.remove(colorTheme);
+        root.classList.add(theme);
 
-//     const enabled = isEnabled === undefined ? prefersDarkMode : isEnabled
+        // Saves Preferred Theme For User On Local Machine //
+        localStorage.setItem('theme', theme)
+    }, [theme, colorTheme]);
 
-//     useEffect(() => {
-//         if (window === undefined) {return}
+    return [colorTheme, setTheme];
+}
 
-//         const root = window.document.documentElement
-
-//         root.classList.remove(enabled ? 'light' : 'dark')
-//         root.classList.add(enabled ? 'dark' : 'light')
-//     }, [enabled])
-
-//     return [enabled, setIsEnabled]
-// }
-
-// export default UserDarkMode
+export default UserDarkMode

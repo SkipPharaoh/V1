@@ -7,7 +7,7 @@ function About(){
         <div className="About">
 
             <div
-                className="my-32 p-14 flex flex-col-reverse items-center lg:flex-row bg-white"
+                className="my-32 p-14 flex flex-col-reverse items-center lg:flex-row bg-white dark:bg-indigo dark:text-white transition duration-500"
             >
                 <div className="w-full lg:w-1/2 lg:pr-5">
                     <div
@@ -36,16 +36,16 @@ function About(){
             </div>
 
             {/* About Me Container */}
-            <div className="max-w-2xl px-8 py-4 mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800" id='about'>
+            <div className="max-w-2xl px-8 py-4 mx-auto bg-white rounded-lg shadow-md dark:bg-indigo transition duration-500" id='about'>
                 <div className="mt-2">
                     {/* About Me Header */}
                     <h1 className="text-3xl font-bold text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline">About Me</h1>
 
                     {/* About Me Section */}
-                    <p className="mt-2 text-gray-600 dark:text-gray-300">Hello, most of my friends call me Skip and I'm a recent graduate of General Assembly's full-time software engineering immersive Bootcamp. I have a passion and tenacity for problem-solving, which feeds my creativity.</p>
-                    <p className="mt-2 text-gray-600 dark:text-gray-300">My interest for software developing start when I came across Google's courses available on Coursera. That led me to take a course available on Coursera by MIT called 'Python For Everyone.' Fast-forward to taday, and I've had the privilege of building and exploring some of the many tools available to software developers.</p>
-                    <p className="mt-2 text-gray-600 dark:text-gray-300">I am curious and motivated to learn as much as I can to strengthen my problem-solving skill, which will result in becoming a better developer.</p>
-                    <p className="mt-2 text-gray-600 dark:text-gray-300">Checkout my skills and projects below!</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">Hello, most of my friends call me Skip and I'm a recent graduate of General Assembly's full-time software engineering immersive Bootcamp. I have a passion and tenacity for problem-solving, which feeds my creativity.</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">My interest for software developing start when I came across Google's courses available on Coursera. That led me to take a course available on Coursera by MIT called 'Python For Everyone.' Fast-forward to taday, and I've had the privilege of building and exploring some of the many tools available to software developers.</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">I am curious and motivated to learn as much as I can to strengthen my problem-solving skill, which will result in becoming a better developer.</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">Checkout my skills and projects below!</p>
                 </div>
             </div>
 

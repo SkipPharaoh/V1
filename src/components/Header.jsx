@@ -1,11 +1,13 @@
 import '../styles/Header.css'
 import Logo from '../assets/logo.png'
 import {useState} from 'react'
+import UserDarkMode from './UserDarkMode'
 
 function Header(){
     // States //
     const [isOpen, setIsOpen] = useState(false)
-    const [darkMode, setDarkMode] = useState(false)
+
+    const [colorTheme, setTheme] = UserDarkMode()
 
     // Toggle Function For Collapsed Header //
     const toggleMenu = () => {
@@ -14,7 +16,7 @@ function Header(){
 
     // Dark Mode Function //
     const toggleDarkMode = () => {
-        setDarkMode(!darkMode)
+        setTheme(colorTheme)
     }
 
     // Variables //
@@ -39,7 +41,7 @@ function Header(){
 
                     {/* Light/Dark Mode Toggle Icon */}
                     <button onClick={toggleDarkMode}>
-                        {darkMode ? 
+                        {colorTheme === 'light' ? 
 
                             // Dark Mode Icon //
                             <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-blue-100 stroke-white hover:stroke-blue-100 fill-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -54,7 +56,7 @@ function Header(){
                             :
 
                             // Light Mode Icon //
-                            <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-white hover:stroke-blue-100 stroke-white fill-blue-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            <svg className="icon w-8 h-8 md:w-10 md:h-10 fill-white stroke-blue-100 hover:stroke-white hover:fill-blue-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             >
                                 <path
                                     strokeLinecap="round"

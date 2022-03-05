@@ -65,7 +65,7 @@ function Home(){
             {/*  Button To Click To Scroll To Top */}
             {topButton && (
                 <button onClick={scrollToTop} 
-                className="fixed bottom-5 right-5 hover:bg-raspberry text-neutral-900 rounded-full bg-indigo hover:text-white cursor-pointer"
+                className="fixed bottom-5 right-5 hover:bg-raspberry text-neutral-900 rounded-full bg-indigo hover:text-white cursor-pointer transition duration-500"
                 >
 
                     {/* Arrow Icon */}

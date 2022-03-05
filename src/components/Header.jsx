@@ -26,12 +26,12 @@ function Header(){
         <div className="Header">
             
             {/* Nav Bar */}
-            <nav className="flex items-center justify-between flex-wrap bg-indigo p-6">
+            <nav className="flex items-center justify-between flex-wrap dark:bg-indigo bg-white p-6">
 
                 {/* LOGO */}
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     <a className="font-semibold text-xl tracking-tight" href="/">
-                        <img src={Logo} alt="Logo" className='w-11 h-11 rounded-full border border-white hover:border-blue-100 shadow-2xl shadow-amber-50'/>
+                        <img src={Logo} alt="Logo" className='w-11 h-11 rounded-full border border-blue-100 hover:border-rose-800 dark:border-blue-100 dark:hover:border-white shadow-2xl shadow-amber-50'/>
                     </a>
                     
                 </div>
@@ -43,26 +43,28 @@ function Header(){
                     <button onClick={toggleDarkMode}>
                         {colorTheme === 'light' ? 
 
-                            // Dark Mode Icon //
-                            <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-blue-100 stroke-white hover:stroke-blue-100 fill-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            >
-                                <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                                />
-                            </svg>
-                            :
-
+                            
                             // Light Mode Icon //
-                            <svg className="icon w-8 h-8 md:w-10 md:h-10 fill-white stroke-blue-100 hover:stroke-white hover:fill-blue-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            <svg className="icon w-8 h-8 md:w-10 md:h-10 hover:fill-white hover:stroke-white stroke-neutral-900 fill-blue-200 transition duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             >
                                 <path
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                     strokeWidth={2}
                                     d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                                />
+                            </svg>
+
+                            :
+
+                            // Dark Mode Icon //
+                            <svg className="icon w-8 h-8 md:w-10 md:h-10 fill-blue-100 hover:stroke-rose-800 stroke-blue-100 hover:fill-rose-800 transition duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            >
+                                <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
                                 />
                             </svg>
                         }
@@ -89,17 +91,17 @@ function Header(){
                     <div className="text-xl lg:flex-grow">
 
                         {/* About */}
-                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white mr-4">
+                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 dark:text-white text-blue-100 mr-4">
                             About
                         </a>
 
                         {/* Skills */}
-                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white mr-4">
+                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100 mr-4">
                             Skills
                         </a>
 
                         {/* Projects */}
-                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 text-white">
+                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100">
                             Projects
                         </a>
                     </div>

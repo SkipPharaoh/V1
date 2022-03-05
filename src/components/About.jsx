@@ -14,17 +14,17 @@ function About(){
                         className="text-center font-semibold lg:text-left"
                     >
                     </div>
-                    <h3 className='mt-5 mb-7 mb-4 text-3xl font-bold tracking-tight sm:text-center sm:text-5xl lg:text-left'>Hi, my name is</h3>
-                    <h1 className='mt-5 mb-7 mb-4 text-5xl font-extrabold tracking-tight sm:text-center sm:text-5xl lg:text-left'>Caniggia Thompson.</h1>
+                    <h3 className='mt-5 mb-4 text-3xl font-bold tracking-tight sm:text-center sm:text-5xl lg:text-left'>Hi, my name is</h3>
+                    <h1 className='mt-5 mb-7 text-5xl font-extrabold tracking-tight sm:text-center sm:text-5xl lg:text-left'>Caniggia Thompson.</h1>
                     <h2
-                        className="mt-5 mb-7 mb-4 text-3xl font-bold tracking-tight sm:text-center sm:text-5xl lg:text-left"
+                        className="mt-5 mb-7 text-3xl font-bold tracking-tight sm:text-center sm:text-5xl lg:text-left"
                     >
                         I solve problems & build things on the internet.
                     </h2>
                     <p
                         className="mt-5 mb-7 text-center text-gray-500 lg:text-left"
                     >
-                        A full Stack Developer with a passion and tenacious for problem-solving. I would love to be apart of an exceptional team who creates exceptional digital experiences. I have a huge interest in working within the FinTech, Investment, or Technology industry.
+                        A full Stack Developer with a passion and tenacity for problem-solving. I would love to be apart of an exceptional team who creates exceptional digital experiences. I have a huge interest in working within the FinTech, Investment, or Technology industry.
                     </p>
                 </div>
                 <img

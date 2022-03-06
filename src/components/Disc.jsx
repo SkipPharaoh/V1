@@ -1,10 +1,12 @@
+// IMPORTS //
+import disc from '../assets/docs/Disc.pdf'
 
 
 function Disc(){
     return(
         <div className="Disc">
             <object
-                data={require('../assets/docs/Disc.pdf')}
+                data={disc}
                 type="application/pdf"
                 width="100%"
                 height="1050"

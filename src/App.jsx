@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         {/* HOME Page Component */}
-        <Route path='/' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
 
         {/* Resume Page */}
         <Route path='/resume.pdf' element={<Resume />} />

@@ -108,7 +108,7 @@ function Header(){
 
                     {/* Resume Button/Link */}
                     <div>
-                        <a href="/resume.pdf" target='_blank' rel="noopener noreferrer" className="inline-block px-4 py-2 leading-none border rounded-full text-blue-100 border-blue-100 bg-white hover:text-white hover:bg-someBlue hover:border-white mt-4 lg:mt-0 shadow-2xl">Resume</a>
+                        <a href={require('../assets/docs/Resume.pdf')} target='_blank' rel="noopener noreferrer" className="inline-block px-4 py-2 leading-none border rounded-full text-blue-100 border-blue-100 bg-white hover:text-white hover:bg-someBlue hover:border-white mt-4 lg:mt-0 shadow-2xl">Resume</a>
                     </div>
                 </div>
             </nav>

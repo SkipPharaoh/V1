@@ -5,7 +5,7 @@ export const projects = [
         description: "The first iteration of my portfolio site to display my skills, resume, & top projects.",
         thumbnail: "https://imgur.com/sXTtSHw.png",
         github: "https://github.com/SkipPharaoh/V1",
-        app: "TBD"
+        app: "https://caniggiathompson.com"
     },
     {
         title: "Capstone Project",

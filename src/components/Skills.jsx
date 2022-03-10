@@ -25,7 +25,7 @@ function Skills(){
             <div className="SkillSetContainer">
 
                 {/* Languages Container */}
-                <div className="Languages max-w-sm rounded overflow-hidden shadow-2xl border-4 ">
+                <div className="Languages max-w-sm rounded overflow-hidden shadow-2xl border-white dark:border-blue-100 border-4 dark:bg-indigo bg-white dark:text-white text-black">
                     <div className="card">
 
                         {/* Languages Header/Title */}
@@ -62,11 +62,11 @@ function Skills(){
                 </div>
 
                 {/* Libraries Container */}
-                <div className="Libraries max-w-sm rounded overflow-hidden shadow-2xl border-4">
+                <div className="Libraries max-w-sm rounded overflow-hidden shadow-2xl border-white dark:border-blue-100 border-4 dark:bg-indigo bg-white dark:text-white text-black">
                     <div className="card">
 
                         {/* Libraries/Frameworks Header/Title */}
-                        <div className="card-header font-bold text-xl mb-2">Libraries & Frameworks</div>
+                        <div className="card-header font-bold text-xl mb-2 dark:text-white text-black">Libraries & Frameworks</div>
                         
                         {/* LOGOS */}
                         <div className="card-body">
@@ -111,11 +111,11 @@ function Skills(){
                 </div>
 
                 {/* Databases Container */}
-                <div className="Databases max-w-sm rounded overflow-hidden shadow-2xl border-4">
+                <div className="Databases max-w-sm rounded overflow-hidden shadow-2xl border-white dark:border-blue-100 border-4 dark:bg-indigo bg-white dark:text-white text-black">
                     <div className="card">
 
                         {/* Databases Header/Title */}
-                        <div className="card-header font-bold text-xl mb-2">Databases</div>
+                        <div className="card-header font-bold text-xl mb-2 dark:text-white text-black">Databases</div>
 
                         {/* LOGOS */}
                         <div className="card-body">
@@ -142,11 +142,11 @@ function Skills(){
                 </div>
 
                 {/* Tools & Platforms Container */}
-                <div className="Tools max-w-sm rounded overflow-hidden shadow-2xl border-4">
+                <div className="Tools max-w-sm rounded overflow-hidden shadow-2xl border-white dark:border-blue-100 border-4 dark:bg-indigo bg-white dark:text-white text-black">
                     <div className="card">
 
                         {/* Tools/Platforms Header/Title */}
-                        <div className="card-header font-bold text-xl mb-2">Tools & Platforms</div>
+                        <div className="card-header font-bold text-xl mb-2 dark:text-white text-black">Tools & Platforms</div>
 
                         {/* LOGOS */}
                         <div className="card-body">

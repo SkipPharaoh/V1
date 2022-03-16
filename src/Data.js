@@ -8,12 +8,12 @@ export const projects = [
         app: "https://caniggiathompson.com"
     },
     {
-        title: "Capstone Project",
-        tech: ["MongoDB", "Express", "React", "NodeJS", "TailwindCSS", "API"],
-        description: "TBD",
-        thumbnail: "",
-        github: "TBD",
-        app: "TBD"
+        title: "MovieThon",
+        tech: ["Django", "Bootstrap"],
+        description: "A social media site built for those movies we juse seen, we're excited about & need to talk to others who have the same excitement",
+        thumbnail: "https://i.imgur.com/mthwX3D.png",
+        github: "https://github.com/SkipPharaoh/Movie-Thon-V2",
+        app: "https://movie-thon.herokuapp.com/"
     },
     {
         title: "Nba-Center",

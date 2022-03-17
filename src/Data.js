@@ -5,11 +5,11 @@ export const projects = [
         description: "The first iteration of my portfolio site to display my skills, resume, & top projects.",
         thumbnail: "https://imgur.com/sXTtSHw.png",
         github: "https://github.com/SkipPharaoh/V1",
-        app: "https://caniggiathompson.com"
+        app: "https://www.caniggiathompson.com"
     },
     {
         title: "MovieThon",
-        tech: ["Django", "Bootstrap"],
+        tech: ["Django", "Bootstrap", "PostgreSQL"],
         description: "A social media site built for those movies we juse seen, we're excited about & need to talk to others who have the same excitement",
         thumbnail: "https://i.imgur.com/mthwX3D.png",
         github: "https://github.com/SkipPharaoh/Movie-Thon-V2",

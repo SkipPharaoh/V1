@@ -2,6 +2,7 @@
 import '../styles/Skills.css'
 
 function Skills(){
+
     return(
         <div className="Skills" id="skills">
 

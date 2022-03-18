@@ -18,7 +18,7 @@ function Footer(){
 
                 {/* Copyright/ Designed By Text */}
                 <p className="py-2 text-rose-800 dark:text-white sm:py-0">Built & Designed by Caniggia Thompson</p>
-                <p className="py-2 text-rose-800 dark:text-white sm:py-0">© All rights reserved</p>
+                <p className="py-2 text-rose-800 dark:text-white sm:py-0">&copy; All rights reserved</p>
             </footer>
         </div>
     )

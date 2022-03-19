@@ -11,7 +11,7 @@ export const projects = [
         title: "MovieThon",
         tech: ["Django", "Bootstrap", "PostgreSQL"],
         description: "A social media site built for those movies we juse seen, we're excited about & need to talk to others who have the same excitement",
-        thumbnail: "https://i.imgur.com/mthwX3D.png",
+        thumbnail: "https://i.imgur.com/6I2AWMx.png",
         github: "https://github.com/SkipPharaoh/Movie-Thon-V2",
         app: "https://movie-thon.herokuapp.com/"
     },

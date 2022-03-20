@@ -43,8 +43,8 @@ function About(){
 
                     {/* About Me Section */}
                     <p className="mt-2 text-gray-600 dark:text-white transition duration-500">Hello, most of my friends call me Skip and I'm a recent graduate of General Assembly's full-time software engineering immersive Bootcamp. I have a passion and tenacity for problem-solving, which feeds my creativity.</p>
-                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">My interest for software developing start when I came across Google's courses available on Coursera. That led me to take a course available on Coursera by MIT called 'Python For Everyone.' Fast-forward to taday, and I've had the privilege of building and exploring some of the many tools available to software developers.</p>
-                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">I am curious and motivated to learn as much as I can to strengthen my problem-solving skill, which will result in becoming a better developer.</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">My interest for software developing started when I came across Google's courses available on Coursera. That led me to take a course available on Coursera by MIT called 'Python For Everyone.' Fast-forward to today, and I've had the privilege of building and exploring some of the many tools available to software developers.</p>
+                    <p className="mt-2 text-gray-600 dark:text-white transition duration-500">I am curious and motivated to learn as much as I can to strengthen my problem-solving skills, which will result in becoming a better developer.</p>
                     <p className="mt-2 text-gray-600 dark:text-white transition duration-500">Checkout my skills and projects below!</p>
                 </div>
             </div>

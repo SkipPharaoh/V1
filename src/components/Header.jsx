@@ -91,17 +91,17 @@ function Header(){
                     <div className="text-xl lg:flex-grow">
 
                         {/* About */}
-                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 dark:text-white text-blue-100 mr-4">
+                        <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-100 dark:text-white text-blue-100 mr-4 transition duration-500">
                             About
                         </a>
 
                         {/* Skills */}
-                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100 mr-4">
+                        <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100 mr-4 transition duration-500">
                             Skills
                         </a>
 
                         {/* Projects */}
-                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100">
+                        <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 dark:text-white text-blue-100 transition duration-500">
                             Projects
                         </a>
                     </div>

@@ -43,7 +43,7 @@ function Home(){
 
 
     return(
-        <div className="Home bg-gradient-to-b from-white via-blue-200 to-neutral-900 dark:bg-gradient-to-b h-full">
+        <div className="Home bg-gradient-to-b from-white via-blue-200 to-neutral-900 dark:bg-gradient-to-b dark:from-blue-300 dark:via-blue-200 dark:to-blue-300 h-full  transition duration-500">
         {/* Nav Bar Component */}
             <Header />
 

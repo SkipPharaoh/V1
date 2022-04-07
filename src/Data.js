@@ -10,7 +10,7 @@ export const projects = [
     {
         title: "MovieThon",
         tech: ["Django", "Bootstrap", "PostgreSQL"],
-        description: "A social media site built for those movies we juse seen, we're excited about & need to talk to others who have the same excitement",
+        description: "A social media site built for those movies we've just seen, we're excited about & need to talk about to others with the same excitement",
         thumbnail: "https://i.imgur.com/6I2AWMx.png",
         github: "https://github.com/SkipPharaoh/Movie-Thon-V2",
         app: "https://movie-thon.herokuapp.com/"
@@ -18,7 +18,7 @@ export const projects = [
     {
         title: "Nba-Center",
         tech: ["React", "React-Bootstrap", "NBA APIs"],
-        description: "A web app built by on the info from the NBA to display the teams, players, and team logos, both past and present!",
+        description: "A web app built on the info from the NBA to display the teams, players, and team logos, both past, and present!",
         thumbnail: "https://imgur.com/fJ7I1xu.png",
         github: "https://github.com/SkipPharaoh/NBA-Center",
         app: "https://nba-center.herokuapp.com/"
@@ -26,7 +26,7 @@ export const projects = [
     {
         title: "East-Coast-Boogie",
         tech: ["EJS", "Express", "NodeJS", "MongoDB", "CSS", "Bootstrap"],
-        description: "A travel guide focuesed on four cities with a list of activities for users to experience there!",
+        description: "A travel guide focused on four cities with a list of activities for users to experience there!",
         thumbnail: "https://imgur.com/879OUSN.png",
         github: "https://github.com/SkipPharaoh/East-Coast-Boogie",
         app: "https://east-coast-boogie.herokuapp.com/"
@@ -34,7 +34,7 @@ export const projects = [
     {
         title: "Blackjack",
         tech: ["HTML", "CSS", "Vanilla JS"],
-        description: "A web app that let's you play to popular casino card game!",
+        description: "A web app that lets you play to popular casino card game!",
         thumbnail: "https://github.com/SkipPharaoh/Project-Blackjack/blob/main/Screenshots/blackjack1.png?raw=true",
         github: "https://github.com/SkipPharaoh/Project-Blackjack",
         app: "https://skippharaoh.github.io/Project-Blackjack/"
